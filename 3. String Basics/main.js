@@ -78,9 +78,18 @@ let userNameInfo = "   Alex   "
 
 console.log("Удаляем пробелы в строке - ", userNameInfo.trim())
 
+
 // charAt(index) получаем символ по индексу 
 
 console.log("Символ - ", nameUser.charAt(0))
+
+// split() — разбивает строку в массив
+
+let welcomeTitle = "Welcome to our website!"
+
+let arr = welcomeTitle.split(" ")
+
+console.log()
 
 
 
