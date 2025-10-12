@@ -15,5 +15,29 @@ console.log("Константа - ", str1)
 
 console.log("-------------------\n")
 
+let name = "Alex"
+
+let userName = `Hello, ${name}`
+
+console.log(userName)
+
+// добавление символов в конец строки
+
+name = name + "!!!!";
+
+console.log(name)
+
+
+// конкатенация строк
+
+let wel = "He"
+let come = "llo"
+
+console.log(wel + come)
+
+// альтернатива через шаблонные строки
+
+console.log(`${wel}${come}, Alex`)
+
 
 
