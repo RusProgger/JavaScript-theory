@@ -40,4 +40,47 @@ console.log(wel + come)
 console.log(`${wel}${come}, Alex`)
 
 
+// Длина строки length
+
+let nameUser = "Stiven"
+
+console.log("Длина строки - ", nameUser.length)
+
+
+// перевод в верхний/нижний регистр
+
+console.log("Верхний регистр - ", nameUser.toUpperCase())
+console.log("Нижний регистр - ", nameUser.toLowerCase())
+
+// includes() — проверка, содержит ли строка подстроку
+
+console.log("Строка содержит - ", nameUser.includes("Stiven"))
+
+
+// Позиция символа или подстроки
+
+console.log("Позиция - ", nameUser.indexOf("e"))
+
+
+// slice(start, end) — извлекает часть строки
+
+console.log("Извлекаем - ", nameUser.slice(0, 4))
+
+
+// replace(old, new) — заменяет подстроку
+
+console.log("Заменяет - ", nameUser.replace("Stiven", "Ivan"))
+
+
+// trim() — убирает пробелы по краям строки
+
+let userNameInfo = "   Alex   "
+
+console.log("Удаляем пробелы в строке - ", userNameInfo.trim())
+
+// charAt(index) получаем символ по индексу 
+
+console.log("Символ - ", nameUser.charAt(0))
+
+
 
