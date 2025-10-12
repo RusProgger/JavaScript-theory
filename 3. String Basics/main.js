@@ -92,4 +92,8 @@ let arr = welcomeTitle.split(" ")
 console.log()
 
 
+// Практика 
 
+let nameUserEnter = prompt("Введите ваше имя: ")
+
+document.write(`Ваше имя: ${nameUserEnter.trim()}`)
