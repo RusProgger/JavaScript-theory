@@ -1,4 +1,4 @@
-let text = prompt("Введите текст: ")
+let text = prompt("Введите текст: ").trim()
 
 text += ("!!!")
 
