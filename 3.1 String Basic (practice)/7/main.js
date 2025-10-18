@@ -7,3 +7,5 @@ const name = prompt("Введите любое слово: ").trim()
     } else {
         document.write(name)
     }
+
+    
