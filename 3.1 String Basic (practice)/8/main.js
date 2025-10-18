@@ -10,3 +10,5 @@ if(text.length === 0) {
     console.log(text[text.length - 1])
 }
 
+
+
