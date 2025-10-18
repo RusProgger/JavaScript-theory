@@ -6,8 +6,8 @@ const age  = prompt("Ваш возраст: ").trim()
 
 if(age >= 18) {
     console.log("Доступ разрешён")
-    document.writep(`Доступ разрешён. ${age}`)
+    document.write(`Доступ разрешён. ${age}`)
 } else {
     console.log("Доступ запрещён")
-    document.writep(`Доступ запрещён. ${age}`)
+    document.write(`Доступ запрещён. ${age}`)
 }
