@@ -14,18 +14,28 @@ let score = prompt("Введите оценку: ").trim()
 
 if(score >= 90) {
     console.log("Отлично!")
-    document.write(`Ваша оценка ${score} и это Отлично!`)
+    // добавим вывод на страницу, просто как сообщения, чтобы каждый раз не заходить в консоль
+    // Этот уже устаревший способ
+    // document.write(`Ваша оценка ${score} и это Отлично!`)
+
+    // самый универсальный и безопасный метод. 
+
+    document.body.textContent = `Ваша оценка: ${score} — Отлично! `;
+
 }
 else if(score >= 70 && score < 90) {
     console.log("Хорошо!")
-    document.write(`Ваша оценка ${score} и это Хорошо!`)
+    // document.write(`Ваша оценка ${score} и это Хорошо!`)
+    document.body.textContent = `Ваша оценка: ${score} — Хорошо! `;
 }
 
 else if(score >= 50 && score < 70) {
     console.log("Удовлетворительно!")
-    document.write(`Ваша оценка ${score} и это Удовлетворительно!`)
+    // document.write(`Ваша оценка ${score} и это Удовлетворительно!`)
+    document.body.textContent = `Ваша оценка: ${score} — Удовлетворительно! `;
 }
 else {
     console.log("Плохо!")
-    document.write(`Ваша оценка ${score} и это Плохо!`)
+    // document.write(`Ваша оценка ${score} и это Плохо!`)
+    document.body.textContent = `Ваша оценка: ${score} — Плохо! `;
 }
