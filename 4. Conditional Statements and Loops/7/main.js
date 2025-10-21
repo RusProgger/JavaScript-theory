@@ -18,3 +18,4 @@ for(let i = 1; i <= number; i++) {
 }
 
 document.body.innerHTML += `Сумма чисел = ${summa}`
+console.log(`Сумма чисел = ${summa}`)
