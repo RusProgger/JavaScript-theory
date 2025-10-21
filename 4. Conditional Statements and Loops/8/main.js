@@ -10,15 +10,17 @@
 - Повторяй попытки, пока не угадает — тогда: `Угадал!`
 */
 
-let secret = 7
+let secret = 7;
+let guess;
 
-let numberSecret = Number(prompt("Введите число: ").trim())
+while (guess !== secret) {
+  guess = Number(prompt("Введите число: ").trim());
 
-if(numberSecret < secret) {
-    console.log('Мало')
-}
-else if(numberSecret > secret) {
-    console.log('Много')
-} else {
-    console.log('Угадал')
+  if (guess < secret) {
+    console.log("Мало");
+  } else if (guess > secret) {
+    console.log("Много");
+  } else {
+    console.log("Угадал!");
+  }
 }
