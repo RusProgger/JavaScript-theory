@@ -12,4 +12,13 @@
 
 let secret = 7
 
-let numberSecret = Number(prompt("Введите число: ")).trim()
+let numberSecret = Number(prompt("Введите число: ").trim())
+
+if(numberSecret < secret) {
+    console.log('Мало')
+}
+else if(numberSecret > secret) {
+    console.log('Много')
+} else {
+    console.log('Угадал')
+}
