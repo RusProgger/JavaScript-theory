@@ -9,10 +9,20 @@ let number
 while(number !== numberSecret) {
     // Спрашиваем пользователя ввести число
 
-    number = Number(prompt("Угадай число от 1 до 100: ").trim());
+    let input = prompt("Угадай число от 1 до 100:");
 
+    if (input === null) {
+        console.log("Вы нажали отмена.");
+        break; 
+    }
 
-    
+     number = Number(input.trim());
+
+    if (isNaN(number)) {
+        console.log("Введите корректное число.");
+        continue; 
+  }
+
     // проверка условий
 
     if(number > numberSecret) {
