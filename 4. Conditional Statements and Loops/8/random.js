@@ -1,16 +1,16 @@
 'use strict'
 
-// создаем генератор случайных чисел
-let numberSecret = Math.floor(Math.random() * 100) + 1
+    // создаем генератор случайных чисел
+    let numberSecret = Math.floor(Math.random() * 100) + 1
 
+    let counter = 3
+    let number
 
-let number
-
-while(number !== numberSecret) {
+    while(number !== numberSecret) {
     // Спрашиваем пользователя ввести число
 
     let input = prompt("Угадай число от 1 до 100:");
-
+    
     if (input === null) {
         console.log("Вы нажали отмена.");
         break; 
@@ -34,3 +34,4 @@ while(number !== numberSecret) {
         console.log("Молодец. Ты угадал число.")
     }
 } 
+ 
