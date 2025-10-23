@@ -11,3 +11,17 @@
 
 */
 
+let login = prompt("Введите логин: ").trim();
+
+if (login === "admin") {
+  let passw = prompt("Введите пароль: ").trim();
+  
+  if (passw === "1234") {
+    console.log("Добро пожаловать, админ!");
+  } else {
+    console.log("Неверный пароль");
+  }
+
+} else {
+  console.log("Привет, гость!");
+}
