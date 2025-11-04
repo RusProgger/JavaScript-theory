@@ -9,4 +9,18 @@ function name(name) {
 // вывод функции
 console.log(name("Alex"));
 
-document.body.innerHTML += `${name("Alex")}`
+document.body.innerHTML += `${name("Alex")} <br>`
+
+
+// Обьявление выражение (Function Expression)
+
+const nameUser = function(userName) {
+    return `Привет, ${userName}`
+}
+
+// вывод 
+
+console.log(nameUser("Denis"));
+
+document.body.innerHTML += `${nameUser("Denis")}`
+
