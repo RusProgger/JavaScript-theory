@@ -23,5 +23,11 @@ number.push(60)
 
 console.log(number[5]) // 60
 
+// Удаляем элемент из конца массива
+
+number.pop(); // вывод 
+
+console.log(number) // 1, 10, 55, 144, 200
+
 
 
