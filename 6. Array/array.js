@@ -13,3 +13,15 @@
 let number = [1, 10, 55, 144, 200]
 
 console.log(number) // весь массив целиком
+
+console.log(number[2]) // вывод 55
+
+
+// добавим елемент в конец массива 
+
+number.push(60)
+
+console.log(number[5]) // 60
+
+
+
