@@ -29,5 +29,23 @@ number.pop(); // вывод
 
 console.log(number) // 1, 10, 55, 144, 200
 
+// добавляем елеменнты в начало массива 
+
+number.unshift(0)
+
+console.log(number)
+
+// удаляем елемент из начала массива 
+
+number.shift()
+
+console.log(number)
+
+// присваиваем елемент к индексу 
+
+number[10] = 1000;
+
+console.log(number)
+
 
 
