@@ -47,5 +47,23 @@ number[10] = 1000;
 
 console.log(number)
 
+console.log("----------------------------------------------------")
+
+// Ищем елементы с помощью метода IndexOf().
+// IndexOf() ищет елемент в массиве и возращает индекс 
+
+let fruits = ["Ananas", "Cocos", "Apple", "Orange"]
+
+// Поиск елемента 
+
+console.log(fruits.indexOf("Mango")) // -1 такого елемента нет в массиве. 
+
+
+// includes() - проверяет, есть ли элемент в массиве, и возвращает true или false
+
+let res = fruits.includes("Appi");
+console.log(res)
+
+
 
 
