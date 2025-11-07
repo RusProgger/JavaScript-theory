@@ -64,6 +64,10 @@ console.log(fruits.indexOf("Mango")) // -1 такого елемента нет 
 let res = fruits.includes("Appi");
 console.log(res)
 
+let nameUser = ["Ivan", "Alex", "Denis", "Kiril"]
+
+document.body.innerHTML += `${nameUser.includes("Alena")}`
+
 
 
 
