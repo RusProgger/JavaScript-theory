@@ -29,7 +29,7 @@ number.pop(); // вывод
 
 console.log(number) // 1, 10, 55, 144, 200
 
-// добавляем елеменнты в начало массива 
+// добавляем елементы в начало массива 
 
 number.unshift(0)
 
@@ -68,8 +68,13 @@ let nameUser = ["Ivan", "Alex", "Denis", "Kiril"]
 
 document.body.innerHTML += `${nameUser.includes("Alena")} <br>`
 
-document.body.innerHTML += `${nameUser.includes("Alex")}`
+document.body.innerHTML += `${nameUser.includes("Alex")} <br>`
 
+// Добавим в массив имя Артем
+
+nameUser.unshift("Артем")
+
+document.body.innerHTML += `${nameUser.includes("Артем")} <br>`
 
 
 
