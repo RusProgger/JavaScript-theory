@@ -77,6 +77,13 @@ nameUser.unshift("Артем")
 document.body.innerHTML += `${nameUser.includes("Артем")} <br>`
 
 
+if(nameUser.includes("Артем") === true) {
+    document.body.innerHTML += `Артем есть <br>`
+} else {
+    document.body.innerHTML += `Артем нет в списках <br>`
+}
+
+
 
 
 
