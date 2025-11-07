@@ -66,7 +66,11 @@ console.log(res)
 
 let nameUser = ["Ivan", "Alex", "Denis", "Kiril"]
 
-document.body.innerHTML += `${nameUser.includes("Alena")}`
+document.body.innerHTML += `${nameUser.includes("Alena")} <br>`
+
+document.body.innerHTML += `${nameUser.includes("Alex")}`
+
+
 
 
 
