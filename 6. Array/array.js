@@ -93,7 +93,13 @@ if(nameUser.includes("Артем")) {
 console.log(nameUser)
 
 
+let arrs = []
 
+console.log(arrs)
 
+arrs[0] = "Serg"
+arrs.push("Nikita")
+
+console.log(arrs)
 
 
