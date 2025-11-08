@@ -102,4 +102,8 @@ arrs.push("Nikita")
 
 console.log(arrs)
 
+arrs.pop()
+
+console.log(arrs)
+
 
