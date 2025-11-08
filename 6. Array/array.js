@@ -90,6 +90,9 @@ if(nameUser.includes("Артем")) {
     document.body.innerHTML += `Артем нет в списках <br>`
 }
 
+console.log(nameUser)
+
+
 
 
 
