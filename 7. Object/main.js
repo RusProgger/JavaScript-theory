@@ -8,4 +8,7 @@ const car = {
 };
 
 // консольный вывод 
-console.log(`Название модели машины: ${car.name}\nГод выпуска ${car.age}`);
+console.log(`Модели машин:`);
+console.log(`${car.name}\nГод выпуска ${car.age}`);
+
+document.body.innerHTML += `Название модели машины: <br> 1 - ${car.name} <br> 2 - ${car.age}`;
