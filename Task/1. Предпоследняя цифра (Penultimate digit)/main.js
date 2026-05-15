@@ -10,7 +10,7 @@ if(!(isNaN(number))) {
 
     document.body.textContent = `Вывод: ${result}`
 } else {
-    console.log(`Вывод: ошибка! Это не число!`)
+    console.log(`Вывод: Ошибка! Это не число!`)
     document.body.textContent = `Вывод: Это не число!`
 }
 
