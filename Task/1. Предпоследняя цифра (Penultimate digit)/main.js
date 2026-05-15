@@ -7,11 +7,11 @@ let number = parseInt(prompt("Введите число: "))
 if(!(isNaN(number))) {
     let result = Math.floor(Math.abs(number) / 10) % 10
     console.log(`Вывод: ${result}`)
-
     document.body.textContent = `Вывод: ${result}`
+    
 } else {
     console.log(`Вывод: Ошибка! Это не число!`)
-    document.body.textContent = `Вывод: Это не число!`
+    document.body.textContent = `Вывод: Ошибка! Это не число!`
 }
 
 
