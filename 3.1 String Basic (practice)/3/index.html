@@ -17,17 +17,36 @@
         // проверка если пользователь ничего не введет..
 
         if(name && name.trim()) {
-            console.log(name.toUpperCase())
 
-            document.write("Вы ввели строку, это строка в верхнем регистре - ", name.toUpperCase(),"<br>")
+            // Создаем вверхний регистр вывода информации
+
+            const upperText = document.createElement("p")
+            upperText.textContent = `Вы ввели строку, это строка в верхнем регистре: ${name.toUpperCase()}`
+
+            // Создаем нижний регистр вывода информации
+
+            const lowerText = document.createElement("p")
+            lowerText.textContent = `Вы ввели строку, это строка в нижнем регистре: ${name.toLowerCase()}`
+
+            // вывод 
+
+            document.body.append(upperText, lowerText)
+
+            // Выводим информацию на консоль 
+
             console.log(`Имя в верхнем регистре: ${name.toUpperCase()}`)
+
+            //console.log(name.toUpperCase())
+            //document.body.textContent = `Вы ввели строку, это строка в верхнем регистре ${name.toUpperCase()}`
+            //document.write("Вы ввели строку, это строка в верхнем регистре - ", name.toUpperCase(),"<br>")
+            //console.log(`Имя в верхнем регистре: ${name.toUpperCase()}`)
 
 
             // Устаревший способ не использовать!!
             // document.write("Вы ничего не ввели...") 
             // Актуальный способ
-            document.body.textContent = `Вы ввели строку, это строка в нижнем регистре ${name.toLowerCase()}`
-            console.log(`Имя в нижнем регистре: ${name.toLowerCase()}`)
+            //document.body.textContent = `Вы ввели строку, это строка в нижнем регистре ${name.toLowerCase()}`
+            //console.log(`Имя в нижнем регистре: ${name.toLowerCase()}`)
         } else {
             // Устаревший способ не использовать!!
             // document.write("Вы ничего не ввели...") 
