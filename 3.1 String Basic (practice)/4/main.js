@@ -1,4 +1,4 @@
-const name = prompt("Введите имя: ")
+const name = prompt("Введите имя: ").trim()
 
 document.write(`Ваше имя ${name} и оно содержит ${name.length} символов`)
 
