@@ -12,3 +12,13 @@ button.addEventListener("click", function() {
 
 // Второй вариант более универсальный без добавления пустого тега на html
 
+const input = document.querySelector("#text")
+const button = document.querySelector(".submit_btn")
+
+button.addEventListener("click", function() {
+    const p = document.createElement("p")
+
+    p.textContent = input.value
+
+    document.body.appendChild(p)
+})
