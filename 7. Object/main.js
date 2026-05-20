@@ -5,6 +5,7 @@
 const car = {
     name: "BMW",
     age: 2001,
+    color: "black"
 };
 
 // консольный вывод 
