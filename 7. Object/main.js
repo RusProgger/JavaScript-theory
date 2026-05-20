@@ -12,4 +12,8 @@ const car = {
 console.log(`Модели машин:`);
 console.log(`${car.name}\nГод выпуска ${car.age}`);
 
-document.body.innerHTML += `Название модели машины: <br> 1 - ${car.name} <br> 2 - ${car.age}`;
+// document.body.innerHTML += `Название модели машины: <br> 1 - ${car.name} <br> 2 - ${car.age}`;
+
+const text = document.createElement("p")
+text.innerHTML = `Название модели машины: <br> 1 - ${car.name} <br> 2 - ${car.age}`;
+document.body.appendChild(text)
