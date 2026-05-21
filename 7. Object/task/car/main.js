@@ -35,7 +35,7 @@ const car = [
 
 // вывод всех машин
 
-car.forEach((name, count) => {
+car.forEach((car, count) => {
     const outputText = document.createElement("p")
 
     outputText.innerHTML = `
