@@ -41,6 +41,9 @@ car.forEach((name, count) => {
     outputText.innerHTML = `
         Машина: ${cout + 1} <br>
         Название: ${car.name} <br>
-        
+        Цвет: ${car.color} <br>
+        Год выпуска: ${car.year} <br>
     `
+
+    document.body.appendChild()
 });
