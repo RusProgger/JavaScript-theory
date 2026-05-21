@@ -45,5 +45,5 @@ car.forEach((name, count) => {
         Год выпуска: ${car.year} <br>
     `
 
-    document.body.appendChild()
+    document.body.appendChild(outputText)
 });
