@@ -1,6 +1,6 @@
 'use strict'
 
-const Car = [
+const car = [
     {
         name: "BMW",
         color: "black",
@@ -39,7 +39,7 @@ car.forEach((name, count) => {
     const outputText = document.createElement("p")
 
     outputText.innerHTML = `
-        Машина: ${cout + 1} <br>
+        Машина: ${count + 1} <br>
         Название: ${car.name} <br>
         Цвет: ${car.color} <br>
         Год выпуска: ${car.year} <br>
