@@ -31,4 +31,10 @@ const Car = [
         year: 2020
 }
 
-]
+];
+
+// вывод всех машин
+
+car.forEach((name, count) => {
+    const outputText = document.createElement("p")
+});
