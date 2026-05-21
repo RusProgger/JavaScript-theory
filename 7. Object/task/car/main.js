@@ -21,7 +21,14 @@ const Car = [
 
 {
         name: "Mazda",
-        
+        color: "green",
+        year: 2020
+},
+
+{
+        name: "Peugeot",
+        color: "white",
+        year: 2020
 }
 
 ]
