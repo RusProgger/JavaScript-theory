@@ -37,4 +37,10 @@ const Car = [
 
 car.forEach((name, count) => {
     const outputText = document.createElement("p")
+
+    outputText.innerHTML = `
+        Машина: ${cout + 1} <br>
+        Название: ${car.name} <br>
+        
+    `
 });
