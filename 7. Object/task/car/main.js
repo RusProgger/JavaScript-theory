@@ -1,5 +1,7 @@
 'use strict'
 
+// object 
+
 const car = [
     {
         name: "BMW",
